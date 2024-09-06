@@ -1,0 +1,53 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file>icons/clear.png</file>
+        <file>icons/copy.png</file>
+        <file>icons/ctrlx.png</file>
+        <file>icons/download.png</file>
+        <file>icons/jiacu.png</file>
+        <file>icons/rotate1.png</file>
+        <file>icons/rotate2.png</file>
+        <file>icons/save.png</file>
+        <file>icons/tianse.png</file>
+        <file>icons/upload.png</file>
+        <file>icons/xhx.png</file>
+        <file>icons/xt.png</file>
+        <file>icons/eli.png</file>
+        <file>icons/ck.png</file>
+        <file>icons/close.png</file>
+        <file>icons/min.png</file>
+        <file>icons/yjjx.png</file>
+        <file>icons/jx.png</file>
+        <file>icons/line.png</file>
+        <file>icons/lx.png</file>
+        <file>icons/baocun.png</file>
+        <file>icons/jiahao.png</file>
+        <file>icons/bianji.png</file>
+        <file>icons/gongju.png</file>
+        <file>icons/wenjian.png</file>
+        <file>icons/jnjx.svg</file>
+        <file>icons/lx.svg</file>
+        <file>icons/pxsbx.svg</file>
+        <file>icons/sjx.svg</file>
+        <file>icons/tx.svg</file>
+        <file>icons/yx.svg</file>
+        <file>icons/xz.png</file>
+        <file>icons/zlc.png</file>
+        <file>icons/ss.png</file>
+        <file>icons/diy.png</file>
+        <file>icons/circulate.png</file>
+        <file>icons/constructure.png</file>
+        <file>icons/ER.png</file>
+        <file>icons/time.png</file>
+        <file>icons/zdy.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>icons/min.png</file>
+        <file>mode/mode1.fct</file>
+        <file>mode/mode2.fct</file>
+        <file>mode/mode3.fct</file>
+        <file>mode/mode4.fct</file>
+        <file>mode/mode5.fct</file>
+        <file>mode/mode6.fct</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CharWidget</class>
+ <widget class="QWidget" name="CharWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:white</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="styleSheet">
+      <string notr="true">QScrollBar:vertical {
+    width: 8px;
+    background: transparent;
+    margin: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+QScrollBar::handle:vertical {
+    width: 8px;
+    background: rgba(69, 178, 255, 90%);
+    border-radius: 4px;
+    min-height: 20px;
+}
+QScrollBar::handle:vertical:hover {
+    width: 8px;
+    background: rgba(69, 178, 255, 100%);
+    border-radius: 4px;
+    min-height: 20px;
+}
+QScrollBar::add-line:vertical {
+    height: 0px;
+    width: 8px;
+    subcontrol-position: bottom;
+}
+QScrollBar::sub-line:vertical {
+    height: 0px;
+    width: 8px;
+    subcontrol-position: top;
+}
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: #E8EAEF;
+    border-radius: 4px;
+}
+QScrollBar:horizontal {
+    height: 8px;
+    background: transparent;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+QScrollBar::handle:horizontal {
+    height: 8px;
+    background: rgba(69, 178, 255, 90%);
+    border-radius: 4px;
+    min-width: 20px;
+}
+QScrollBar::handle:horizontal:hover {
+    height: 8px;
+    background: rgba(69, 178, 255, 100%);
+    border-radius: 4px;
+    min-width: 20px;
+}
+QScrollBar::add-line:horizontal {
+    width: 0px;
+    height: 8px;
+    subcontrol-position: right;
+}
+QScrollBar::sub-line:horizontal {
+    width: 0px;
+    height: 8px;
+    subcontrol-position: left;
+}
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
+    background: #E8EAEF;
+    border-radius: 4px;
+}
+
+</string>
+     </property>
+     <property name="verticalScrollBarPolicy">
+      <enum>Qt::ScrollBarPolicy::ScrollBarAlwaysOn</enum>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarPolicy::ScrollBarAlwaysOn</enum>
+     </property>
+     <property name="widgetResizable">
+      <bool>false</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents_10">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1550</width>
+        <height>1550</height>
+       </rect>
+      </property>
+      <widget class="FlowChart" name="widget" native="true">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1550</width>
+         <height>1550</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:white</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>FlowChart</class>
+   <extends>QWidget</extends>
+   <header location="global">flowchart.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
